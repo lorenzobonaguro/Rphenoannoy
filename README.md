@@ -1,6 +1,10 @@
 R implementation of the PhenoGraph algorithm
 ===============
 
+This is a clone of the repository from [stuchly/Rphenoannoy](https://github.com/stuchly/Rphenoannoy).
+
+We did not modify the package but we use this fork to provide binaries for Silicon Macs as build from source might be problematic.
+
 ### Rphenograph
 
 A simple R implementation of the [PhenoGraph](http://www.cell.com/cell/abstract/S0092-8674(15)00637-6) [1] algorithm, which is a clustering method designed for high-dimensional single-cell data analysis. It works by creating a graph ("network") representing phenotypic similarities between cells by calclating the Jaccard coefficient between nearest-neighbor sets, and then identifying communities using the well known [Louvain method](https://sites.google.com/site/findcommunities/) in this graph. 
